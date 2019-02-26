@@ -1,11 +1,11 @@
 import * as React from 'react'
 import * as styles from '../../assets/styles.module.scss'
-import Branding from '../../assets/vectores/branding.svg'
-import Consulting from '../../assets/vectores/consulting.svg'
-import Design from '../../assets/vectores/design.svg'
-import Development from '../../assets/vectores/development.svg'
-import Strategy from '../../assets/vectores/strategy.svg'
-import Training from '../../assets/vectores/training.svg'
+import Branding from '../../assets/vectors/branding.svg'
+import Consulting from '../../assets/vectors/consulting.svg'
+import Design from '../../assets/vectors/design.svg'
+import Development from '../../assets/vectors/development.svg'
+import Strategy from '../../assets/vectors/strategy.svg'
+import Training from '../../assets/vectors/training.svg'
 
 export default class Services extends React.Component<{}, {}> {
     render() {

@@ -1,6 +1,6 @@
 import * as React from 'react'
 import * as styles from '../../assets/styles.module.scss'
-import Logo from '../../assets/vectores/fogata.svg'
+import Logo from '../../assets/vectors/fogata.svg'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 export default class Navbar extends React.Component<{}, {}> {

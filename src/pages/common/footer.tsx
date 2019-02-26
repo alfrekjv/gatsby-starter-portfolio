@@ -1,9 +1,9 @@
 import * as React from 'react'
 import * as styles from '../../assets/styles.module.scss'
-import SymbolNegative from '../../assets/vectores/symbol-negative.svg'
-import Phone from '../../assets/vectores/icn-phone.svg'
-import Mail from '../../assets/vectores/icn-mail.svg'
-import Heart from '../../assets/vectores/heart.svg'
+import SymbolNegative from '../../assets/vectors/symbol-negative.svg'
+import Phone from '../../assets/vectors/icn-phone.svg'
+import Mail from '../../assets/vectors/icn-mail.svg'
+import Heart from '../../assets/vectors/heart.svg'
 
 export default class Navbar extends React.Component<{}, {}> {
     render() {

@@ -1,6 +1,6 @@
 import * as React from 'react'
 import * as styles from '../../assets/styles.module.scss'
-import CorettaSymbol from '../../assets/vectores/symbol-positive.svg'
+import CorettaSymbol from '../../assets/vectors/symbol-positive.svg'
 
 export default class Tagline extends React.Component<{}, {}> {
     render() {
