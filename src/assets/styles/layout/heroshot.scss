@@ -1,0 +1,62 @@
+.Heroshot {
+    background: #fff url(./images/heroshot.png) top center no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+    .HeroshotMainText {
+        padding-top: 20vh;
+        text-align: center;
+        margin: 0 auto;
+        width: 60vw;
+
+        @media only screen and (max-width: 1920px) {
+            padding-top: 35vh;
+            width: 50vw;
+        }
+
+        @media only screen and (max-width: 900px) {
+            padding-top: 30vh;
+            width: 80vw;
+        }
+
+        @media only screen and (max-width: 420px) {
+            width: 95vw
+        }
+
+        h1 {
+            font-family: $font1;
+            margin-bottom: 32px;
+            font-size: 4.45em;
+            font-weight: 600;
+            line-height: 1;
+            color: $second;
+
+            @media only screen and (max-width: 1024px) {
+                font-size: 3.85em;
+            }
+
+            @media only screen and (max-width: 600px) {
+                font-size: 2.85em;
+            }
+
+            strong {font-weight: 400}
+        }
+
+        h2 {
+            font-size: 1.85em;
+            line-height: 1.25;
+            font-weight: 400;
+            color: $fifth;
+
+            @media only screen and (max-width: 1024px) {
+                font-size: 1.45em;
+            }
+
+            @media only screen and (max-width: 600px) {
+                font-size: 1.35em;
+            }
+
+            strong {font-weight: 800}
+        }
+    }
+}
