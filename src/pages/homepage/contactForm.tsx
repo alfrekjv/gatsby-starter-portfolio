@@ -179,7 +179,7 @@ export default class ContactForm extends React.Component<Props, {}> {
                                     type="text"
                                     ref="email"
                                     onBlur={event => this.onChangeEmail(event)}
-                                    placeholder="susana@acme.com" />
+                                    placeholder="hola@coretta.mx" />
                             </FormGroup>
                         </Col>
 
@@ -203,7 +203,7 @@ export default class ContactForm extends React.Component<Props, {}> {
                                     type="text"
                                     ref="company"
                                     onChange={event => this.setState({company: event.target.value})}
-                                    placeholder="Acme SA de CV" />
+                                    placeholder="Coretta Studio" />
                             </FormGroup>
                         </Col>
 

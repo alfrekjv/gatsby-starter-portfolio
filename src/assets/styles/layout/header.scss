@@ -41,13 +41,15 @@
             }
 
             path {
-                &:nth-of-type(1) {animation: fadein 1s linear; animation-delay: 0s} // C
+                &:nth-of-type(1) {animation: fadein 1s linear; animation-delay: 0s} // F
                 &:nth-of-type(2) {animation: fadein 1s linear; animation-delay: 0.1s} // o
-                &:nth-of-type(3) {animation: fadein 1s linear; animation-delay: 0.2s} // r
-                &:nth-of-type(4) {animation: fadein 1s linear; animation-delay: 0.3s} // e
+                &:nth-of-type(3) {animation: fadein 1s linear; animation-delay: 0.2s} // g
+                &:nth-of-type(4) {animation: fadein 1s linear; animation-delay: 0.3s} // a
                 &:nth-of-type(5) {animation: fadein 1s linear; animation-delay: 0.4s} // t
-                &:nth-of-type(6) {animation: fadein 1s linear; animation-delay: 0.5s} // t
-                &:nth-of-type(7) {animation: fadein 1s linear; animation-delay: 0.6s} // a
+                &:nth-of-type(6) {animation: fadein 1s linear; animation-delay: 0.5s} // a
+                &:nth-of-type(7) {animation: fadein 1s linear; animation-delay: 0.6s} // flame 1
+                &:nth-of-type(8) {animation: fadein 1s linear; animation-delay: 0.6s} // flame 2
+                &:nth-of-type(9) {animation: fadein 1s linear; animation-delay: 0.6s} // flame 3
             }
         }
     }

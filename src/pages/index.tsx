@@ -5,7 +5,7 @@ import { default as Heroshot } from './common/heroshot'
 import { default as Tagline } from './homepage/tagline'
 import { default as Services } from './homepage/services'
 import { default as Portfolio } from './homepage/portfolio'
-import { default as Contacto } from './homepage/contacto'
+import { default as Contact } from './homepage/contacto'
 import { default as Footer } from './common/footer'
 import { Helmet } from 'react-helmet'
 
@@ -27,14 +27,16 @@ export default class IndexPage extends React.Component<IndexPageProps, {}> {
                 </Helmet>
                 <Navbar />
                 <Heroshot
-                    title="We create brands!"
-                    subtitle="We partner with customers to build challenging brands all around the world."
+                    title="We create stunning brands!"
+                    subtitle="Aenean eget condimentum odio. Aenean posuere tortor diam,
+                        quis commodo leo molestie faucibus. Fusce velit nunc,
+                        rhoncus sit amet nisi eget, porta sagittis tortor."
                 />
                 <div className={styles.Homepage}>
                     <Tagline />
                     <Services />
                     <Portfolio />
-                    <Contacto />
+                    <Contact />
                 </div>
                 <Footer />
             </section>
