@@ -9,7 +9,7 @@ export default class Tagline extends React.Component<{}, {}> {
                 <div className={styles.Centered}>
                     <div className={styles.Block}>
                         <h2>MANTRA</h2>
-                        <h1>WE BUILDING IN BUILDING BRANDS THAT TRASCEND BY TELLING THE RIGHT STORY.</h1>
+                        <h1>WE BELIEVE IN BUILDING BRANDS THAT TRASCEND BY TELLING THE RIGHT STORY.</h1>
                     </div><div className={styles.Block}>
                         <CorettaSymbol className={styles.Symbol} />
                     </div>
