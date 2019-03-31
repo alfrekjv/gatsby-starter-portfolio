@@ -1,18 +1,18 @@
 @import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css');
 
 // Fonts
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
 @import url('https://fonts.googleapis.com/css?family=Merriweather');
 
-$font1: "Montserrat", sans-serif;
+$font1: "Source Sans Pro", sans-serif;
 $font2: "Merriweather", serif;
 
 // Color Palette
-$first: #d04223;
-$second: #1e6eb7;
-$third: #e58920;
-$fourth: #2e2a2b;
-$fifth: #4a4f54;
+$first: #483EFF;
+$second: #F60487;
+$third: #424242;
+$fourth: #F7F7F7;
+$fifth: #FFFFFF;
 $text: #666f78;
 
 .InnerPage {padding-top: 100px}
@@ -51,7 +51,7 @@ h1, h2,
 h3, h4,
 h5, h6 {
     line-height: 1.25;
-    color: $fifth;
+    color: $first;
 }
 
 h1 {

@@ -22,15 +22,13 @@ export default class IndexPage extends React.Component<IndexPageProps, {}> {
             <section className={styles.Container}>
                 <Helmet>
                     <meta charSet="utf-8" />
-                    <title>Fogata Design Studio</title>
+                    <title>Jane Doe | Website design</title>
                     <link rel="canonical" href="https://coretta.mx/" />
                 </Helmet>
                 <Navbar />
                 <Heroshot
-                    title="We create stunning brands!"
-                    subtitle="Aenean eget condimentum odio. Aenean posuere tortor diam,
-                        quis commodo leo molestie faucibus. Fusce velit nunc,
-                        rhoncus sit amet nisi eget, porta sagittis tortor."
+                    title="Hello! I am Jane Doe"
+                    subtitle="I exist to build digital products and services for fun and profit"
                 />
                 <div className={styles.Homepage}>
                     <Tagline />

@@ -1,5 +1,5 @@
 .Heroshot {
-    background: #fff url(./images/heroshot.png) top center no-repeat;
+    background: #000 top center no-repeat;
     background-size: cover;
     height: 100vh;
 
@@ -26,34 +26,34 @@
         h1 {
             font-family: $font1;
             margin-bottom: 32px;
-            font-size: 4.85em;
-            font-weight: 600;
-            line-height: 1.15;
-            color: $second;
+            font-size: 3.25em;
+            font-weight: 400;
+            line-height: 1;
+            color: $fifth;
 
             @media only screen and (max-width: 1024px) {
-                font-size: 3.85em;
+                font-size: 1.85em;
             }
 
             @media only screen and (max-width: 600px) {
-                font-size: 2.85em;
+                font-size: 1.85em;
             }
 
             strong {font-weight: 400}
         }
 
         h2 {
-            font-size: 1.85em;
-            line-height: 1.25;
-            font-weight: 400;
+            font-size: 4.95em;
+            line-height: 1.12;
+            font-weight: 600;
             color: $fifth;
 
             @media only screen and (max-width: 1024px) {
-                font-size: 1.45em;
+                font-size: 3.85em;
             }
 
             @media only screen and (max-width: 600px) {
-                font-size: 1.35em;
+                font-size: 3.25em;
             }
 
             strong {font-weight: 800}
