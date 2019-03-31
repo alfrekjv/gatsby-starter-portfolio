@@ -37,6 +37,6 @@ To see the commands available to run `gatsby --help`.
 Now you are ready to use the Gatsby CLI tool to create your first Gatsby site. Using the tool, you can download “starters” (partially built sites with some default configuration) to help you get moving faster on creating a certain type of site.
 
 1. Open up your terminal.
-2. Run `gatsby new shillshare https://github.com/alfrekjv/gatsby-starter-portfolio`.
-3. Run `cd skillshare`.
+2. Run `gatsby new website https://github.com/alfrekjv/gatsby-starter-portfolio`.
+3. Run `cd website`.
 4. Run `gatsby develop`.
